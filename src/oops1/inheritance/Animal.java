@@ -2,11 +2,8 @@ package oops1.inheritance;
 
 public class Animal {
 
-    int noOfLegs = 4;
-
-
-    public String walk() {
-        return "is walking";
+    void makeSound() {
+        System.out.println("Sound...");
     }
 
 }
