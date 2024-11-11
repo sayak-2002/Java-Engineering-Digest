@@ -7,6 +7,7 @@ public class Dog extends Animal {
     void makeSound() {
         System.out.println("Woof..");
     }
+
     public static void main(String[] args) {
         Dog d1 = new Dog();
 
